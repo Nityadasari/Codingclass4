@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Coding2
+{
+public static void main(String[] args)
+{
+    int N, i, j ;  
+    char ch='A';
+  System.out.println(" Enter value of N:"); 
+  Scanner sc=new Scanner(System.in);
+  N=sc.nextInt();
+  
+    for(i=1;i<=N;i++)
+    {
+    
+        for(j=1;j<=i;j++)
+        {
+            System.out.print(ch+ " ");
+                ch++;;
+        }
+        
+        System.out.println();
+   }
+}
+}
